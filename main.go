@@ -2,20 +2,24 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"strings"
 )
 
 func main() {
 	fmt.Println("This assignment belongs to Group E")
 
-	fmt.Println(" Calculate Area of Ractangle ")
+	fmt.Println(" Calculate Area of Ractangle: ")
 	fmt.Println(calculateareaofractangle())
 
-	fmt.Println(" Check Palindrome ")
+	fmt.Println(" Check Palindrome: ")
 	palindrome()
 
-	fmt.Println("Find Fibonacci")
+	fmt.Println("Find Fibonacci: ")
 	fibonacciNumber()
+
+	fmt.Println("Generate Random Number: ")
+	fmt.Println("The generated random number is: ", generateRandomNumber())
 
 }
 
@@ -80,4 +84,35 @@ func fibonacciNumber() {
 		first = second
 		second = next
 	}
+}
+
+
+// Function one
+// created by Durpin Thapa Magar(500217688)
+// this function will generate a random number between the input minimum and maximum value entered.
+func generateRandomNumber() int {
+	//Declaring variables to store minimum number for range
+	var min, max int
+
+	//Ask for user input
+	fmt.Println("Enter minimum range number: ")
+
+	//store minimum number in variable min
+	fmt.Scan(&min)
+
+	fmt.Println("Enter maximum range number: ")
+
+	//store maximum number in variable max
+	fmt.Scan(&max)
+
+	//Check if max number is less or equal to min number
+	if max <= min {
+		fmt.Println("Invalid Numbers: Please enter valid min and max numbers")
+		return -1
+	}
+	//Generate random number between max and min numbers
+	randomNumber := rand.Intn(max-min) + min
+
+	//return random number to the caller
+	return randomNumber
 }
