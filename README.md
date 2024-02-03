@@ -23,3 +23,7 @@ This function will tells weather the entered number is prime number or not
 Function Six: Calculation of Simple Interest
 created by Sonika Sharma(500226024)
 this function will calculate the simple interest from the amount , rate and time inputs
+
+Function Five: Even/odd
+created by Navjot Kaur(500219223)
+this function will tells weather the input is even or odd.
