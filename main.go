@@ -25,6 +25,9 @@ func main() {
 	fmt.Println(" Check Prime Number ")
 	primenumber()
 
+	fmt.Println(" Calculate Simple Interest ")
+	fmt.Println(simpleInterest())
+
 }
 
 // Function Three
@@ -142,4 +145,22 @@ func primenumber() {
 	}
 
 	fmt.Printf("%d is a prime number.\n", n)
+}
+
+// Function Six
+// created by Sonika Sharma(500226024)
+// this function will calculate the simple interest from the amount , rate and time inputs.
+func simpleInterest() float64 {
+	var principal, rate, time float64
+
+	fmt.Print("Enter principal amount: ")
+	fmt.Scan(&principal)
+
+	fmt.Print("Enter rate of interest: ")
+	fmt.Scan(&rate)
+
+	fmt.Print("Enter time in years: ")
+	fmt.Scan(&time)
+	interest := (principal * rate * time) / 100
+	return interest
 }

@@ -19,3 +19,7 @@ This method will take two numbers from the user input and generate a random numb
 Function Eight:
 Created by Rudra Kumar(500228048)
 This function will tells weather the entered number is prime number or not.
+
+Function Six: Calculation of Simple Interest
+created by Sonika Sharma(500226024)
+this function will calculate the simple interest from the amount , rate and time inputs.
