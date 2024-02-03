@@ -1,11 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	fmt.Println("This assignment belongs to Group E")
+
 	fmt.Println(" Calculate Area of Ractangle ")
 	fmt.Println(calculateareaofractangle())
+
+	fmt.Println(" Check Palindrome ")
+	palindrome()
 
 }
 
@@ -22,4 +29,28 @@ func calculateareaofractangle() float64 {
 	fmt.Scan(&width)
 
 	return length * width
+}
+
+// Function Seven
+// created by Gurcharan Singh(500228108)
+// this function will tells weather the entered string is palidrome or not by using strings
+func palindrome() {
+	var word string
+
+	fmt.Print("Enter the string without space: ")
+	fmt.Scan(&word)
+
+	word = strings.ToLower(word)
+
+	n := ""
+
+	for i := len(word) - 1; i >= 0; i-- {
+		n = n + string(word[i])
+	}
+
+	if n == word {
+		fmt.Println("String is Palindrome")
+	} else {
+		fmt.Println("String is not Palindrome")
+	}
 }
