@@ -28,6 +28,9 @@ func main() {
 	fmt.Println(" Calculate Simple Interest ")
 	fmt.Println(simpleInterest())
 
+	fmt.Println(" Even or Odd Number ")
+	fmt.Println(isEvenOrOdd())
+
 }
 
 // Function Three
@@ -163,4 +166,18 @@ func simpleInterest() float64 {
 	fmt.Scan(&time)
 	interest := (principal * rate * time) / 100
 	return interest
+}
+
+// Function Five
+// created by Navjot Kaur(500219223)
+// this function will tells weather the input is even or odd.
+func isEvenOrOdd() string {
+	var num int
+	fmt.Print("Enter any number to check even or odd: ")
+	fmt.Scan(&num)
+
+	if num%2 == 0 {
+		return "even number"
+	}
+	return "odd number"
 }
