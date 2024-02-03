@@ -14,6 +14,9 @@ func main() {
 	fmt.Println(" Check Palindrome ")
 	palindrome()
 
+	fmt.Println("Find Fibonacci")
+	fibonacciNumber()
+
 }
 
 // Function Three
@@ -52,5 +55,29 @@ func palindrome() {
 		fmt.Println("String is Palindrome")
 	} else {
 		fmt.Println("String is not Palindrome")
+	}
+}
+
+// Function Two
+// created by Sushil Aryal(500226789)
+// this function will generate Fibonacci Number by entering number of terms.
+func fibonacciNumber() {
+
+	//Declaring variables
+	var input int
+	var next int
+	var first, second int = 0, 1
+
+	//Ask for user input which user wishes to be shown
+	fmt.Println("Enter the number of terms in Fibonacci series you want to show: ")
+	//Get a user input
+	fmt.Scan(&input)
+	fmt.Println("Fibonacci Series: ")
+	//Calculate and Print Fibonacci series
+	for i := 0; i < input; i++ {
+		fmt.Printf("%d ", first)
+		next = first + second
+		first = second
+		second = next
 	}
 }
