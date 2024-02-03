@@ -15,3 +15,7 @@ This function will show the series of fibonacci series upto the term based on us
 Function One: Generate Random Number between a range of two number from input
 Created by Durpim Thapa Magar(500217688)
 This method will take two numbers from the user input and generate a random number between those two numbers
+
+Function Eight:
+Created by Rudra Kumar(500228048)
+This function will tells weather the entered number is prime number or not.
