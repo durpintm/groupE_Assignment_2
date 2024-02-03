@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"math/rand"
 	"strings"
 )
@@ -20,6 +21,9 @@ func main() {
 
 	fmt.Println("Generate Random Number: ")
 	fmt.Println("The generated random number is: ", generateRandomNumber())
+
+	fmt.Println(" Check Prime Number ")
+	primenumber()
 
 }
 
@@ -86,7 +90,6 @@ func fibonacciNumber() {
 	}
 }
 
-
 // Function one
 // created by Durpin Thapa Magar(500217688)
 // this function will generate a random number between the input minimum and maximum value entered.
@@ -115,4 +118,28 @@ func generateRandomNumber() int {
 
 	//return random number to the caller
 	return randomNumber
+}
+
+// Function Eight
+// created by Rudra Kumar(500228048)
+// this function will tells weather the entered number is prime number or not.
+func primenumber() {
+	var n int
+
+	fmt.Print("Enter a number to check if it's a prime number or not: ")
+	fmt.Scan(&n)
+
+	if n <= 1 {
+		fmt.Printf("%d is not a prime number.\n", n)
+		return
+	}
+
+	for i := 2; float64(i) <= math.Sqrt(float64(n)); i++ {
+		if n%i == 0 {
+			fmt.Printf("%d is not a prime number.\n", n)
+			return
+		}
+	}
+
+	fmt.Printf("%d is a prime number.\n", n)
 }
