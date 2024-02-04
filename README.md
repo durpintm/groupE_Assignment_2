@@ -27,3 +27,7 @@ this function will calculate the simple interest from the amount , rate and time
 Function Five: Even/odd
 created by Navjot Kaur(500219223)
 this function will tells weather the input is even or odd.
+
+Function Four: Reverse Function
+created by Virpal Kaur(500218936)
+this function will tells reverse the number entered.
