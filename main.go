@@ -31,6 +31,9 @@ func main() {
 	fmt.Println(" Even or Odd Number ")
 	fmt.Println(isEvenOrOdd())
 
+	fmt.Println(" Reverse Number ")
+	fmt.Println(reverseNumber())
+
 }
 
 // Function Three
@@ -180,4 +183,20 @@ func isEvenOrOdd() string {
 		return "even number"
 	}
 	return "odd number"
+}
+
+// Function Four
+// created by Virpal Kaur(500218936)
+// this function will reverse the number entered.
+func reverseNumber() int {
+	var num int
+	fmt.Print("Enter a number to reverse: ")
+	fmt.Scan(&num)
+
+	reversed := 0
+	for num > 0 {
+		reversed = reversed*10 + num%10
+		num /= 10
+	}
+	return reversed
 }
