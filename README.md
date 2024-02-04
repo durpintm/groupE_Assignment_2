@@ -16,18 +16,19 @@ Function One: Generate Random Number between a range of two number from input
 Created by Durpin Thapa Magar(500217688)  
 This method will take two numbers from the user input and generate a random number between those two numbers
 
-Function Eight:
-Created by Rudra Kumar(500228048)
+Function Eight:  
+Created by Rudra Kumar(500228048)  
 This function will tells weather the entered number is prime number or not
 
-Function Six: Calculation of Simple Interest
-created by Sonika Sharma(500226024)
-this function will calculate the simple interest from the amount , rate and time inputs
+Function Six: Calculation of Simple Interest  
+created by Sonika Sharma(500226024)  
+This function will calculate the simple interest from the amount, rate and time inputs
 
-Function Five: Even/odd
-created by Navjot Kaur(500219223)
-this function will tells weather the input is even or odd.
+Function Five: Even/odd  
+Created by Navjot Kaur(500219223)  
+this function will tells weather the input is even or odd
 
-Function Four: Reverse Function
-created by Virpal Kaur(500218936)
-this function will tells reverse the number entered.
+Function Four: Reverse Function  
+Created by Virpal Kaur(500218936)  
+This function will reverse the number entered  
+

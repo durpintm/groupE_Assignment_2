@@ -22,23 +22,23 @@ func main() {
 	fmt.Println("Generate Random Number: ")
 	fmt.Println("The generated random number is: ", generateRandomNumber())
 
-	fmt.Println(" Check Prime Number ")
+	fmt.Println(" Check Prime Number: ")
 	primenumber()
 
-	fmt.Println(" Calculate Simple Interest ")
+	fmt.Println("Calculate Simple Interest: ")
 	fmt.Println(simpleInterest())
 
-	fmt.Println(" Even or Odd Number ")
+	fmt.Println("Check for Even or Odd Number: ")
 	fmt.Println(isEvenOrOdd())
 
-	fmt.Println(" Reverse Number ")
+	fmt.Println("Reverse Number: ")
 	fmt.Println(reverseNumber())
 
 }
 
 // Function Three
-// created by Veerpal Kaur(500226407)
-// this function will Calculate the area of rectangle by entering length and width.
+// Created by Veerpal Kaur(500226407)
+// This function will Calculate the area of rectangle by entering length and width.
 func calculateareaofractangle() float64 {
 
 	var length, width float64
@@ -52,8 +52,8 @@ func calculateareaofractangle() float64 {
 }
 
 // Function Seven
-// created by Gurcharan Singh(500228108)
-// this function will tells weather the entered string is palidrome or not by using strings
+// Created by Gurcharan Singh(500228108)
+// This function will tells weather the entered string is palidrome or not by using strings
 func palindrome() {
 	var word string
 
@@ -76,8 +76,8 @@ func palindrome() {
 }
 
 // Function Two
-// created by Sushil Aryal(500226789)
-// this function will generate Fibonacci Number by entering number of terms.
+// Created by Sushil Aryal(500226789)
+// This function will generate Fibonacci Number by entering number of terms.
 func fibonacciNumber() {
 
 	//Declaring variables
@@ -99,9 +99,9 @@ func fibonacciNumber() {
 	}
 }
 
-// Function one
-// created by Durpin Thapa Magar(500217688)
-// this function will generate a random number between the input minimum and maximum value entered.
+// Function One
+// Created by Durpin Thapa Magar(500217688)
+// This function will generate a random number between the input minimum and maximum value entered.
 func generateRandomNumber() int {
 	//Declaring variables to store minimum number for range
 	var min, max int
@@ -130,8 +130,8 @@ func generateRandomNumber() int {
 }
 
 // Function Eight
-// created by Rudra Kumar(500228048)
-// this function will tells weather the entered number is prime number or not.
+// Created by Rudra Kumar(500228048)
+// This function will tells weather the entered number is prime number or not.
 func primenumber() {
 	var n int
 
@@ -154,8 +154,8 @@ func primenumber() {
 }
 
 // Function Six
-// created by Sonika Sharma(500226024)
-// this function will calculate the simple interest from the amount , rate and time inputs.
+// Created by Sonika Sharma(500226024)
+// This function will calculate the simple interest from the amount , rate and time inputs.
 func simpleInterest() float64 {
 	var principal, rate, time float64
 
@@ -172,8 +172,8 @@ func simpleInterest() float64 {
 }
 
 // Function Five
-// created by Navjot Kaur(500219223)
-// this function will tells weather the input is even or odd.
+// Created by Navjot Kaur(500219223)
+// This function will tells weather the input is even or odd.
 func isEvenOrOdd() string {
 	var num int
 	fmt.Print("Enter any number to check even or odd: ")
@@ -186,8 +186,8 @@ func isEvenOrOdd() string {
 }
 
 // Function Four
-// created by Virpal Kaur(500218936)
-// this function will reverse the number entered.
+// Created by Virpal Kaur(500218936)
+// This function will reverse the number entered.
 func reverseNumber() int {
 	var num int
 	fmt.Print("Enter a number to reverse: ")
